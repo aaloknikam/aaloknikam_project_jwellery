@@ -2,7 +2,7 @@
 <br>
 This webpage is designed for a jwellery shop e-commerce where the items of the same shops will be sold on internet, with proper management of item details and summary of orders while taking fedbacks from the customers..
 <br>
-This Project has not been completed yet but its work in progress with a little bit of frontend in the index page and rest pages are remaining...
+This Project has not been completed yet but its work is in progress with a little bit of frontend in the index page and rest pages are remaining...
 <br>
 <br>
 
