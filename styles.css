@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.5em;
+    text-align: center;
+
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    margin: auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container text{
+    width: auto;
+    height: auto;
+    filter: grayscale(.4);
+    transition: .3s;
+    transform: scale(0.7) rotate(1.5);
+}
+.container text:hover{
+    filter: grayscale(.4);
+    transform: scale(0.7) rotate(1.5);
+}
+
+.logo a {
+    color: #fff;
+    text-decoration:none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar {
+    position: sticky; /* Enables the sticky behavior */
+    top: 0;           /* Position it at the top */
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;    /* Keeps it above other elements */
+  }
+  
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.7s ease, transform 0.3s ease; /* Smooth transitions for color and size */
+  }
+  
+  .navbar a:hover {
+    color: rgb(227, 136, 136); /* Change text color to black on hover */
+  }
+  
+
+.hero {
+    background: url('image2.jpg') no-repeat center center/cover;
+    color: #fff;
+    font-size: 30;
+    text-align: left;
+    min-height: 90vh;  /* Ensures the image covers the full height of the page  */
+    background-size: cover; /* Ensures the image covers the entire section */
+    padding: 1em 1em;
+    background-position: center; /* Keeps the image centered */
+    
+    
+}
+
+#tagline1{
+    margin: 0;
+    padding:0px 30px;
+    padding-top: 100px;
+    color: white;
+}
+
+#tagline2{
+    margin: 5px 0;
+    padding: 0px 30px;
+    color: white;
+    font-family: "Playwrite AU SA";
+}
+
+#tagline3{
+    font-size:20 ;
+    /* padding-left: 700;
+    padding-right: 20; */
+    padding-top: 12em;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size:medium;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.welcome input {
+    padding: 0.5em;
+    margin-right: 0.5em;
+    width: 200px;
+}
+
+.welcome button {
+    padding: 0.5em 2em;
+    background-color: rgba(60, 60, 56, 0.43);
+    color: #7f7911a7;
+    border: none;
+    cursor: pointer;
+}
+.welcome button:hover {
+   transform: scale(0.95);
+   background-color: rgba(60, 60, 56, 0.623);
+   /* transition: color 0.s ease, transform 0.3s ease; */
+}
+
+footer ul {
+    display: flex;
+    gap: 1.5em;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.section-titles{
+    font-family: "Playwrite AU SA";
+    font-weight:500;
+    font-size: x-large;
+}
+.contact-us{
+    font-family: "Playwrite AU SA";
+    text-align: center;
+    font-weight:500;
+    font-size: x-large;
+}
+
+/* Add styles for blog cards */
+
+#offerings{
+    margin-top: 60;
+}
+.offer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+.offer {
+    background: rgb(250, 250, 250);
+    padding: 0px;
+    margin-bottom: 20px;
+    width: 420px;
+    justify-content: center;
+    align-items: center;
+    /* height: 220px; */
+    overflow: hidden;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(255, 255, 255) 0px 4px 3px 0px inset, rgba(0, 0, 0, 0.08) 0px -4px 3px 0px inset, rgba(0, 0, 0, 0.15) 0px 4px 100px 13px;
+    gap: 0px;
+
+}
+
+.offer{
+    text-align: center;
+    font-size: medium;
+    padding: 20;
+    font-weight: 100;
+}
+
+
+.offer img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Add styles for additional sections
+.info-section1 {
+    padding-top: 90;
+    background: #ffffff;
+    text-align: center;
+}
+
+.info-section ul {
+    list-style: disc;
+    text-align: center;
+    margin: 1em auto;
+    max-width: 800px;
+} */
+
+.button-container{
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+button {
+    padding: 15px 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+  }
+
+  .info-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.info-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.info-container .text {
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .header-container, .footer-container {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offer-container {
+        flex-direction: column;
+    }
+
+    .info-container {
+        grid-template-columns: 1fr;
+    }
+}
